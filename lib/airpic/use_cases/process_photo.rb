@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class ProcessPhoto < UseCase
     def run params
       if !params['images'] 
@@ -30,4 +32,6 @@ module Airpic
       OpenStruct.new(pdf: pdf_path, png: png_path)
     end
   end
+
+end
 end

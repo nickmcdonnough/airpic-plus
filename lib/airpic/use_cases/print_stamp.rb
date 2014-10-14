@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class PrintStamp < UseCase
     def run params
       if params[:credit]
@@ -14,4 +16,6 @@ module Airpic
       success
     end
   end
+
+end
 end
