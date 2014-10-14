@@ -1,5 +1,5 @@
 module Airpic
-moudle Repositories
+module Repositories
 
   class Card < ActiveRecord::Base
     belongs_to :user
