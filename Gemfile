@@ -6,4 +6,4 @@ gem 'pry-byebug'
 gem 'rspec', '~> 3.1.0'
 gem 'sinatra'
 gem 'mustache'
-
+gem 'rmagick'

@@ -44,6 +44,7 @@ GEM
       rack
     rainbow (2.0.0)
     rake (10.3.2)
+    rmagick (2.13.3)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
@@ -74,5 +75,6 @@ DEPENDENCIES
   activerecord
   mustache
   pry-byebug
+  rmagick
   rspec (~> 3.1.0)
   sinatra
