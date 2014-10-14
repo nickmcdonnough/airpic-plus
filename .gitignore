@@ -2,3 +2,5 @@
 .bundle
 vendor/bundle
 x
+*.swp
+*.swo
