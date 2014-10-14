@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class VerifyRecipient < UseCase
     def run params
       nickname = incoming['message'].split[1].downcase.gsub(/\W/, '')
@@ -11,5 +13,6 @@ module Airpic
       success recipient_lob_id: recipient.lob_id
     end
   end
-end
 
+end
+end

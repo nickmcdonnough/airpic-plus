@@ -1,6 +1,8 @@
 require 'ostruct'
 
 module Airpic
+module UseCases
+
   class UseCase
     def self.run inputs
       self.new.run inputs
@@ -16,4 +18,6 @@ module Airpic
       OpenStruct.new(data)
     end
   end
+
+end
 end

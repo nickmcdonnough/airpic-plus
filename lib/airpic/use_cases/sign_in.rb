@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class SignIn < UseCase
     def run params
       user = Airpic::DBI.exec.find_user_by_username(params[:username])
@@ -15,4 +17,6 @@ module Airpic
       success user_id: user.id
     end
   end
+
+end
 end

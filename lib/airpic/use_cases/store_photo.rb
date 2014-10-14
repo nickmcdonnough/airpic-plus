@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class StorePhoto < UseCase
     def run params
       file = params[:file]
@@ -37,4 +39,6 @@ module Airpic
       success storage_url: storage_url
     end
   end
+
+end
 end

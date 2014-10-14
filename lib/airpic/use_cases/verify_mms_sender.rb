@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class VerifyMMSSender < UseCase
     def run params
       incoming_mobile = params['msisdn']
@@ -16,4 +18,6 @@ module Airpic
       success sender_id: sender.id
     end
   end
+
+end
 end

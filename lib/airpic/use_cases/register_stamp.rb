@@ -1,4 +1,6 @@
 module Airpic
+module UseCases
+
   class RegisterStamp < UseCase
     def run params
       stamp = Airpic::DBI.exec.create_stamp(params)
@@ -10,4 +12,6 @@ module Airpic
       success amount: stamp.value
     end
   end
+
+end
 end
